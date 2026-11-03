@@ -1,0 +1,24 @@
+{
+  "name": "open-R3E-verifier",
+  "version": "1.0.0",
+  "description": "Your RaceRoom to Discord link",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["discord", "discord-bot", "raceroom", "sim-racing"],
+  "author": "anddrrees",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anddrrees/open-R3E-verifier.git"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.9.0",
+    "discord.js": "^14.26.2"
+  }
+}
